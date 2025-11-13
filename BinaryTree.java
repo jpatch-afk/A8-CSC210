@@ -1,8 +1,8 @@
 /**
  *  Implements binary trees.
  *
- *  @author  Nicholas R. Howe
- *  @version CSC 212, November 2021
+ *  @author  Jenna Paczkowski 
+ *  @version CSC 210 Nov 2025
  */
 public class BinaryTree<E> {
     /** The value at this node */
@@ -36,7 +36,7 @@ public class BinaryTree<E> {
 
     /** Accessor for node data */
     public E getData() {
-	      return data;
+	    return data;
     }
 
     /** Accessor for left child */
@@ -66,17 +66,17 @@ public class BinaryTree<E> {
 
     /** Determines whether a tree is empty */
     public static boolean isEmpty(BinaryTree node) {
-	      return (node == null);
+	    return (node == null);
     }
 
     /** Determines whether this tree is a leaf */
     public boolean isLeaf() {
-	      return (left == null)&&(right == null);
+	    return (left == null)&&(right == null);
     }
 
     /** Determines whether this tree is a branch */
     public boolean isBranch() {
-	      return (left != null)||(right != null);
+	    return (left != null)||(right != null);
     }
 
     /** Counts the number of nodes */
