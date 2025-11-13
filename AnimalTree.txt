@@ -1,4 +1,4 @@
- Is it a mammal?
+Is it a mammal?
 Y Does it have hooves?
 N Is it a reptile?
 YY Does it give milk?
